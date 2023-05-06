@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=M+PLUS+Rounded+1c:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: black url(imagens/pizza-7863716_1920.jpg)no-repeat center fixed ;
+    position: static;
+    background-size:   20% 100% static ;
+}
+
+header{
+    background: rgba(255,255,255,0.3);
+    padding-top: 0;
+    padding-left:5% ;
+    display: block;
+    padding-bottom: 10px;
+}
+header p{
+    display: inline;
+    font-size: 30px;
+    background: rgb(169, 43, 43);
+    padding: 6px;
+}
+
+#titulo-formulario{
+    margin-bottom: 40px;
+    padding-top: 10px;
+    font-size: 40px;  
+    font-family: 'Castoro Titling', cursive; 
+}
+
+#container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:2%;
+    width: 470px;
+    height: 500px;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    background: rgba(255,255,255,0.3);
+    border-radius: 30px;
+}
+
+.form{
+    margin-top: 30px;
+    width: 78%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form input{
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    border-radius: 7px;
+    border: 0;
+}
+
+#submit{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 78%;  
+}
+
+#submit input{
+    margin-top: 40px;
+    font-size: 20px;
+    width: 100%;
+    background: rgb(88, 20, 20);
+    color: aliceblue;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    padding: 0;
+    border: 0;
+}
+#direitos{
+    padding-top: 100px;
+}
